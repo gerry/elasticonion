@@ -9,6 +9,10 @@ some fun/interesting data to build dashboards with or build out other scans from
 I blame @jms_dot_py and 
 this [post](http://www.automatingosint.com/blog/2016/07/dark-web-osint-with-python-and-onionscan-part-one/) of his for giving me the idea.
 
+It should be noted that there are a few extraneous moving parts to this. There are reasons,
+but for a PoC could be removed. E.g., redis in favor of just throwing json at logstash,
+beanstalk instead of a file/mem based queue, etc.
+
 #### Install requirements
 These notes should be enough to show you what you need. Installing beanstalk, redis, elasticsearch, logstash, kibana, their prerequisites and some python libraries.
 
